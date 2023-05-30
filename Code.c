@@ -41,7 +41,7 @@ case 1 : printf("\nEnter the username : ");
 scanf("%s",username);
 printf("\nEnter the password : ");
 scanf("%s",password);
-if((strcmp(username,"admin")==0 && strcmp(password,"admin")==0))
+if((strcmp(username,"admin")==0 && strcmp(password,"admin")==0))//password for admin is admin only
 owner(first);
 else
 printf("\nInvalid Login Credentials\n");
